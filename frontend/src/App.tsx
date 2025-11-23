@@ -1,28 +1,24 @@
 import { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import logo from "./usc-scope-logo.png";
 import "./App.css";
+import MapComponent from "./components/MapComponent";
 
 function App() {
   const [pickup, setPickup] = useState("");
   const [dropoff, setDropoff] = useState("");
-  const [markerPosition, setMarkerPosition] = useState<[number, number]>([
-    34.022,
-    -118.285,
-  ]); // USC default
-
   const [results, setResults] = useState<any[]>([]); // <-- store fake API results
 
   const handlePickupChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setPickup(value);
-
+  }
+/*
     // Example: typing "USC" moves marker to USC
     if (value.toLowerCase() === "usc") {
       setMarkerPosition([34.022, -118.285]);
     }
-  };
+  };*/
 
   // 🔥 API CALL: This is the important part
   const handleCompare = async () => {
@@ -143,19 +139,7 @@ function App() {
 
         {/* RIGHT SIDE: MAP */}
         <div style={{ flex: 1 }}>
-          <MapContainer
-            center={markerPosition}
-            zoom={13}
-            style={{ height: "500px", width: "100%" }}
-          >
-            <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              attribution="&copy; OpenStreetMap contributors"
-            />
-            <Marker position={markerPosition}>
-              <Popup>Pickup Location</Popup>
-            </Marker>
-          </MapContainer>
+          <MapComponent pickup={pickup} dropoff={dropoff} />
         </div>
       </div>
     </div>
