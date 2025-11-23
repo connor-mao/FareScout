@@ -1,0 +1,9 @@
+start_location,end_location,time_of_day,service,price,distance_miles,estimated_duration_min
+USC,LAX,14:00,UberX,25.50,14.2,23
+USC,LAX,14:00,Lyft,24.00,14.2,23
+USC,LAX,22:00,UberX,34.80,14.2,25
+USC,LAX,22:00,Lyft,31.50,14.2,25
+Koreatown,USC,11:00,UberX,12.00,3.2,10
+Koreatown,USC,11:00,Lyft,11.20,3.2,10
+Santa Monica,Downtown LA,18:00,UberX,42.10,15.0,35
+Santa Monica,Downtown LA,18:00,Lyft,40.80,15.0,35
