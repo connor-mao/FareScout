@@ -1,7 +1,16 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware  
 import pandas as pd
 app = FastAPI()
-df = pd.read_csv("rides.csv")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+df = pd.read_csv("rideshare_data.csv")
 
 @app.get("/")
 def home():
