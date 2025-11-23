@@ -46,7 +46,7 @@ export default function MapComponent({ pickup, dropoff }: MapContainerProps) {
 }, [pickup, dropoff]);
 
 const mapOptions: MapOptions = {
-  scrollWheelZoom: false,
+  scrollWheelZoom: true,
 };
 
   return (
