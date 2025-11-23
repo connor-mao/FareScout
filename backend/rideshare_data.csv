@@ -1,9 +1,179 @@
 start_location,end_location,time_of_day,service,price,distance_miles,estimated_duration_min
+USC,LAX,08:00,UberX,22.50,14.2,25
+USC,LAX,08:00,Lyft,21.40,14.2,25
+USC,LAX,08:00,UberXL,33.80,14.2,25
+USC,LAX,08:00,Lyft XL,32.40,14.2,25
+USC,LAX,08:00,Uber Comfort,27.90,14.2,25
+USC,LAX,08:00,Lyft Lux,38.20,14.2,25
+USC,LAX,08:00,Waymo,20.10,14.2,25
 USC,LAX,14:00,UberX,25.50,14.2,23
 USC,LAX,14:00,Lyft,24.00,14.2,23
-USC,LAX,22:00,UberX,34.80,14.2,25
-USC,LAX,22:00,Lyft,31.50,14.2,25
-Koreatown,USC,11:00,UberX,12.00,3.2,10
-Koreatown,USC,11:00,Lyft,11.20,3.2,10
-Santa Monica,Downtown LA,18:00,UberX,42.10,15.0,35
-Santa Monica,Downtown LA,18:00,Lyft,40.80,15.0,35
+USC,LAX,14:00,UberXL,36.20,14.2,23
+USC,LAX,14:00,Lyft XL,34.70,14.2,23
+USC,LAX,14:00,Uber Comfort,29.80,14.2,23
+USC,LAX,14:00,Lyft Lux,41.50,14.2,23
+USC,LAX,14:00,Waymo,22.30,14.2,23
+USC,LAX,18:00,UberX,29.30,14.2,30
+USC,LAX,18:00,Lyft,27.80,14.2,30
+USC,LAX,18:00,UberXL,40.20,14.2,30
+USC,LAX,18:00,Lyft XL,38.70,14.2,30
+USC,LAX,18:00,Uber Comfort,33.60,14.2,30
+USC,LAX,18:00,Lyft Lux,44.90,14.2,30
+USC,LAX,18:00,Waymo,26.70,14.2,30
+USC,LAX,22:00,UberX,34.80,14.2,28
+USC,LAX,22:00,Lyft,31.50,14.2,28
+USC,LAX,22:00,UberXL,46.70,14.2,28
+USC,LAX,22:00,Lyft XL,44.00,14.2,28
+USC,LAX,22:00,Uber Comfort,38.20,14.2,28
+USC,LAX,22:00,Lyft Lux,52.10,14.2,28
+USC,LAX,22:00,Waymo,30.40,14.2,28
+
+USC,DTLA,08:00,UberX,11.20,3.5,10
+USC,DTLA,08:00,Lyft,10.80,3.5,10
+USC,DTLA,08:00,UberXL,17.90,3.5,10
+USC,DTLA,08:00,Lyft XL,17.20,3.5,10
+USC,DTLA,08:00,Uber Comfort,13.40,3.5,10
+USC,DTLA,08:00,Lyft Lux,22.10,3.5,10
+USC,DTLA,08:00,Waymo,9.90,3.5,10
+USC,DTLA,14:00,UberX,12.50,3.5,12
+USC,DTLA,14:00,Lyft,11.80,3.5,12
+USC,DTLA,14:00,UberXL,19.20,3.5,12
+USC,DTLA,14:00,Lyft XL,18.70,3.5,12
+USC,DTLA,14:00,Uber Comfort,15.00,3.5,12
+USC,DTLA,14:00,Lyft Lux,24.40,3.5,12
+USC,DTLA,14:00,Waymo,10.40,3.5,12
+USC,DTLA,22:00,UberX,16.00,3.5,13
+USC,DTLA,22:00,Lyft,14.90,3.5,13
+USC,DTLA,22:00,UberXL,23.80,3.5,13
+USC,DTLA,22:00,Lyft XL,22.30,3.5,13
+USC,DTLA,22:00,Uber Comfort,18.90,3.5,13
+USC,DTLA,22:00,Lyft Lux,29.80,3.5,13
+USC,DTLA,22:00,Waymo,13.10,3.5,13
+
+USC,Santa Monica,08:00,UberX,32.40,15.5,35
+USC,Santa Monica,08:00,Lyft,30.80,15.5,35
+USC,Santa Monica,08:00,UberXL,47.20,15.5,35
+USC,Santa Monica,08:00,Lyft XL,45.90,15.5,35
+USC,Santa Monica,08:00,Uber Comfort,36.80,15.5,35
+USC,Santa Monica,08:00,Lyft Lux,52.40,15.5,35
+USC,Santa Monica,08:00,Waymo,28.60,15.5,35
+USC,Santa Monica,14:00,UberX,34.10,15.5,33
+USC,Santa Monica,14:00,Lyft,32.50,15.5,33
+USC,Santa Monica,14:00,UberXL,49.50,15.5,33
+USC,Santa Monica,14:00,Lyft XL,48.00,15.5,33
+USC,Santa Monica,14:00,Uber Comfort,39.10,15.5,33
+USC,Santa Monica,14:00,Lyft Lux,55.70,15.5,33
+USC,Venice,08:00,UberX,19.80,9.4,22
+USC,Venice,08:00,Lyft,18.70,9.4,22
+USC,Venice,14:00,UberX,21.30,9.4,25
+USC,Venice,14:00,Lyft,20.10,9.4,25
+USC,Venice,18:00,UberX,25.50,9.4,30
+USC,Venice,18:00,Lyft,23.90,9.4,30
+USC,Venice,22:00,UberX,29.40,9.4,27
+USC,Venice,22:00,Lyft,27.00,9.4,27
+
+USC,Beverly Hills,08:00,UberX,24.40,10.8,25
+USC,Beverly Hills,08:00,Lyft,23.10,10.8,25
+USC,Beverly Hills,14:00,UberX,26.20,10.8,27
+USC,Beverly Hills,14:00,Lyft,24.80,10.8,27
+USC,Beverly Hills,18:00,UberX,30.70,10.8,32
+USC,Beverly Hills,18:00,Lyft,28.90,10.8,32
+USC,Beverly Hills,22:00,UberX,35.40,10.8,30
+USC,Beverly Hills,22:00,Lyft,33.10,10.8,30
+
+USC,Culver City,08:00,UberX,14.60,6.1,15
+USC,Culver City,08:00,Lyft,13.80,6.1,15
+USC,Culver City,14:00,UberX,15.90,6.1,17
+USC,Culver City,14:00,Lyft,15.10,6.1,17
+USC,Culver City,18:00,UberX,18.40,6.1,22
+USC,Culver City,18:00,Lyft,17.60,6.1,22
+USC,Culver City,22:00,UberX,20.10,6.1,20
+USC,Culver City,22:00,Lyft,19.00,6.1,20
+
+USC,Pasadena,08:00,UberX,34.80,22.5,35
+USC,Pasadena,08:00,Lyft,33.20,22.5,35
+USC,Pasadena,14:00,UberX,36.50,22.5,38
+USC,Pasadena,14:00,Lyft,34.90,22.5,38
+USC,Pasadena,18:00,UberX,42.70,22.5,45
+USC,Pasadena,18:00,Lyft,40.20,22.5,45
+USC,Pasadena,22:00,UberX,48.90,22.5,42
+USC,Pasadena,22:00,Lyft,46.10,22.5,42
+
+USC,Burbank,08:00,UberX,29.40,17.2,30
+USC,Burbank,08:00,Lyft,28.10,17.2,30
+USC,Burbank,14:00,UberX,31.80,17.2,33
+USC,Burbank,14:00,Lyft,30.40,17.2,33
+USC,Burbank,18:00,UberX,37.20,17.2,40
+USC,Burbank,18:00,Lyft,35.10,17.2,40
+USC,Burbank,22:00,UberX,42.80,17.2,38
+USC,Burbank,22:00,Lyft,40.30,17.2,38
+
+LAX,Hollywood,08:00,UberX,29.50,12.5,28
+LAX,Hollywood,08:00,Lyft,28.40,12.5,28
+LAX,Hollywood,14:00,UberX,32.00,12.5,25
+LAX,Hollywood,14:00,Lyft,30.80,12.5,25
+Koreatown,DTLA,08:00,UberX,12.40,3.1,12
+Koreatown,DTLA,14:00,Lyft,11.90,3.1,12
+Koreatown,DTLA,18:00,UberX,15.60,3.1,16
+Koreatown,DTLA,22:00,Lyft,14.20,3.1,14
+
+Koreatown,West Hollywood,08:00,UberX,14.20,4.0,14
+Koreatown,West Hollywood,14:00,Lyft,13.70,4.0,15
+Koreatown,West Hollywood,18:00,UberX,17.40,4.0,20
+Koreatown,West Hollywood,22:00,Lyft,16.10,4.0,18
+
+West Hollywood,Hollywood,08:00,UberX,10.60,2.2,8
+West Hollywood,Hollywood,14:00,Lyft,10.10,2.2,8
+West Hollywood,Hollywood,18:00,UberX,13.80,2.2,12
+West Hollywood,Hollywood,22:00,Lyft,12.40,2.2,10
+
+Sherman Oaks,Hollywood,08:00,UberX,24.80,9.8,22
+Sherman Oaks,Hollywood,14:00,Lyft,23.30,9.8,22
+Sherman Oaks,Hollywood,18:00,UberX,29.40,9.8,28
+Sherman Oaks,Hollywood,22:00,Lyft,27.10,9.8,25
+
+Studio City,Hollywood,08:00,UberX,18.90,5.4,15
+Studio City,Hollywood,14:00,Lyft,17.80,5.4,15
+Studio City,Hollywood,18:00,UberX,22.70,5.4,20
+Studio City,Hollywood,22:00,Lyft,21.30,5.4,18
+
+Malibu,Santa Monica,08:00,UberX,38.50,19.2,35
+Malibu,Santa Monica,14:00,Lyft,36.90,19.2,35
+Malibu,Santa Monica,18:00,UberX,45.20,19.2,45
+Malibu,Santa Monica,22:00,Lyft,42.40,19.2,40
+
+Brentwood,Westwood,08:00,UberX,9.80,1.9,7
+Brentwood,Westwood,14:00,Lyft,9.40,1.9,7
+Brentwood,Westwood,18:00,UberX,12.70,1.9,10
+Brentwood,Westwood,22:00,Lyft,11.80,1.9,9
+
+Echo Park,Silver Lake,08:00,UberX,8.90,1.8,7
+Echo Park,Silver Lake,14:00,Lyft,8.40,1.8,7
+Echo Park,Silver Lake,18:00,UberX,11.20,1.8,10
+Echo Park,Silver Lake,22:00,Lyft,10.30,1.8,8
+
+Hollywood Hills,Hollywood,08:00,UberX,14.80,3.2,11
+Hollywood Hills,Hollywood,14:00,Lyft,14.10,3.2,11
+Hollywood Hills,Hollywood,18:00,UberX,18.20,3.2,16
+Hollywood Hills,Hollywood,22:00,Lyft,16.90,3.2,14
+
+Encino,Sherman Oaks,08:00,UberX,12.40,3.9,10
+Encino,Sherman Oaks,14:00,Lyft,11.90,3.9,10
+Encino,Sherman Oaks,18:00,UberX,15.80,3.9,14
+Encino,Sherman Oaks,22:00,Lyft,14.40,3.9,12
+
+Northridge,Sherman Oaks,08:00,UberX,22.80,12.4,22
+Northridge,Sherman Oaks,14:00,Lyft,21.30,12.4,22
+Northridge,Sherman Oaks,18:00,UberX,27.40,12.4,30
+Northridge,Sherman Oaks,22:00,Lyft,25.10,12.4,27
+
+Westwood,Venice,08:00,UberX,17.60,5.8,14
+Westwood,Venice,14:00,Lyft,16.80,5.8,14
+Westwood,Venice,18:00,UberX,20.90,5.8,18
+Westwood,Venice,22:00,Lyft,19.40,5.8,16
+
+Long Beach,Manhattan Beach,14:00,UberX,31.80,17.9,32
+Long Beach,Manhattan Beach,18:00,Lyft,29.40,17.9,32
+
+Glendale,Pasadena,08:00,UberX,18.20,8.2,15
+Glendale,Pasadena,14:00,Lyft,17.10,8.2,15
